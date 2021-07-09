@@ -1,10 +1,10 @@
-# from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 import numpy as np
 import networkx as nx
 import regex
 from flask import Flask, request, jsonify, render_template
 import nltk
-# nltk.download('stopwords')
+nltk.download('stopwords')
 
 # def read_article(data):
 
@@ -85,7 +85,7 @@ import nltk
 
 # #----------FLASK-----------------------------#
 
-# app = Flask(__name__)
+app = Flask(__name__)
 # @app.route('/templates', methods =['POST'])
 # def original_text_form():
 # 		text = request.form['input_text']
