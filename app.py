@@ -4,8 +4,6 @@ import networkx as nx
 import regex
 from flask import Flask, request, jsonify, render_template
 import nltk
-from fractions import gcd
-import math
 # nltk.download('stopwords')
 
 def read_article(data):
