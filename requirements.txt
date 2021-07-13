@@ -12,5 +12,7 @@ pandas>=0.19
 nltk>=3.4.5
 regex>=2.5.82
 networkx>=2.5
+summarext>=0.0.1
+pprintpp>=0.4.0
 
 
