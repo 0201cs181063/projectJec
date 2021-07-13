@@ -1,9 +1,5 @@
-from nltk.corpus import stopwords
-import numpy as np
-import networkx as nx
-import regex
+
 from flask import Flask, request, jsonify, render_template
-import nltk
 from pprint import pprint as print
 from gensim.summarization import summarize
 # nltk.download('stopwords')
